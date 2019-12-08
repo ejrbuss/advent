@@ -1,5 +1,4 @@
 import Control.Exception
-import Formatting
 
 fuelForModule mass = 
     mass `div` 3 - 2
@@ -30,7 +29,7 @@ part2 masses =
     sum (map refinedFuelForModule masses)
 
 readInt str =
-    read str :: Integer
+    read str :: Int
 
 parseInput input =
     map readInt (lines input)
