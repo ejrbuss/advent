@@ -1,7 +1,6 @@
 import Control.Exception
 import Data.List.Split
 import Data.Sequence
-import Data.Maybe
 
 output memory =
     index memory 0
